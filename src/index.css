@@ -1,7 +1,7 @@
 @font-face {
   font-display: "swap";
   font-family: "FuturaBTBook";
-  src: local("FuturaBTBook"), url("../public/fonts/FuturaBT-Book.otf") format("woff2");
+  src: local("FuturaBTBook"), url("../public/fonts/FuturaBT-Book.woff2") format("woff2");
 }
 
 body {
