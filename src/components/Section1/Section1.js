@@ -16,7 +16,12 @@ function Section1() {
           </div>
         </div>
         <div className={styles.copy}>
-          Copy
+          <Typography variant="FuturaHeadingLarge">
+            A simple approach to find happiness and confidence
+          </Typography>
+          <Typography variant="NewYorkHeadingXSmall">
+            3 Questions and 3 Mindsets to change your life
+          </Typography>
         </div>
       </div>
     </section>

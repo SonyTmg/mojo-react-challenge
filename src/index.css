@@ -4,6 +4,30 @@
   src: local("FuturaBTBook"), url("../public/fonts/FuturaBT-Book.woff2") format("woff2");
 }
 
+@font-face {
+  font-display: "swap";
+  font-family: "FuturaBTExtraBlack";
+  src: local("FuturaBTExtraBlack"), url("../public/fonts/FuturaBT-ExtraBlack.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: "swap";
+  font-family: "FuturaBTMediumCondensed";
+  src: local("FuturaBTMediumCondensed"), url("../public/fonts/FuturaBT-MediumCondensed.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: "swap";
+  font-family: "NewYork";
+  src: local("NewYork"), url("../public/fonts/NewYorkExtraLarge-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: "swap";
+  font-family: "TimberWolf";
+  src: local("TimberWolf"), url("../public/fonts/TimberWolf-Regular.woff2") format("woff2");
+}
+
 body {
   margin: 0;
   --bg-yellow-gradient: radial-gradient(98.66% 100% at 50% 0%, #FFCE85 0%, #FFAE33 100%);

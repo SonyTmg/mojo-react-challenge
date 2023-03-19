@@ -4,11 +4,14 @@ import Section1 from './components/Section1';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <Section1 />
+      <main>
+        <Section1 />
+        <Section1 />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
 

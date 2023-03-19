@@ -17,7 +17,6 @@
 .images {
   flex: 1;
   max-width: 420px;
-  background-color: green;
   display: flex;
   justify-content: center;
   padding: 40px;
@@ -33,5 +32,4 @@
 .copy {
   flex: 2;
   max-width: 736px;
-  background-color: blue;
 }
