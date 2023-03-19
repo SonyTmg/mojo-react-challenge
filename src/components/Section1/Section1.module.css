@@ -2,10 +2,36 @@
   background: var(--bg-yellow-gradient);
   display: flex;
   justify-content: center;
+  padding-top: 160px;
 }
 
 .container {
   width: 100%;
   max-width: 1200px;
   height: 500px;
+  display: flex;
+  justify-content: space-between;
+  gap: 44px;
+}
+
+.images {
+  flex: 1;
+  max-width: 420px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.iphoneLeft {
+  z-index: 10;
+  margin-top: 29px;
+  margin-right: -85.5px;
+}
+
+
+.copy {
+  flex: 2;
+  max-width: 736px;
+  background-color: blue;
 }
