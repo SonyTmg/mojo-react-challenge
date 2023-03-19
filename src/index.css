@@ -6,4 +6,5 @@
 
 body {
   margin: 0;
+  --bg-yellow-gradient: radial-gradient(98.66% 100% at 50% 0%, #FFCE85 0%, #FFAE33 100%);
 }

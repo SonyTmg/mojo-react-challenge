@@ -1,0 +1,11 @@
+.wrapper {
+  background: var(--bg-yellow-gradient);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+}
