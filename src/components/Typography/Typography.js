@@ -22,7 +22,14 @@ const styles = {
     lineHeight: '24px'
   },
 
-  FuturaHeadingSmall: {},
+  FuturaHeadingSmall: {
+    fontFamily: 'FuturaBTMediumCondensed',
+    fontWeight: 400,
+    fontSize: '16px',
+    lineHeight: '16x',
+    letterSpacing: '-0.4px',
+    textTransform: 'uppercase',
+  },
 
   FuturaParagraphMedium: {
     fontFamily: 'FuturaBTBook',
@@ -40,7 +47,7 @@ const styles = {
     fontFamily: 'NewYork',
     fontSize: '24px',
     fontWeight: 400,
-    lineHeight: '28px'
+    lineHeight: '28px',
   },
 
   Timberwolf44: {},
