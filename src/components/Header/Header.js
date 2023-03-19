@@ -12,7 +12,7 @@ function Header() {
         </div>
         <div className={styles.right}>
           <Typography variant='FuturaHeadingMedium'>
-            <nav className={styles.nav}>
+            <nav className={styles.nav} role='navigation'>
               <a href="#" className={styles.navItem}>Home</a>
               <a href="#" className={styles.navItem}>Course & App</a>
               <a href="#" className={styles.navItem}>For Work</a>

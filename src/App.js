@@ -8,7 +8,6 @@ function App() {
       <Header />
       <main>
         <Section1 />
-        <Section1 />
       </main>
       <Footer />
     </>
