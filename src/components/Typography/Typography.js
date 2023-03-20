@@ -47,7 +47,12 @@ const styles = {
 
   FuturaParagraphSmall: {},
 
-  NewYorkHeadingSmall: {},
+  NewYorkHeadingSmall: {
+    fontFamily: 'NewYork',
+    fontSize: '32px',
+    fontWeight: 400,
+    lineHeight: '36px',
+  },
 
   NewYorkHeadingXSmall: {
     fontFamily: 'NewYork',
@@ -58,14 +63,19 @@ const styles = {
 
   Timberwolf44: {},
 
-  Timberwolf28: {}
+  Timberwolf28: {
+    fontFamily: 'TimberWolf',
+    fontSize: '28px',
+    fontWeight: 400,
+    lineHeight: '36px',
+  }
 };
 
 function Typography(props) {
-  const { children, variant = 'FuturaParagraphMedium' } = props;
+  const { children, variant = 'FuturaParagraphMedium', style } = props;
 
   return (
-    <div style={styles[variant]}>
+    <div style={{...styles[variant], ...style}}>
       {children}
     </div>
   );
@@ -73,7 +83,8 @@ function Typography(props) {
 
 Typography.propTypes = {
   children: PropTypes.element.isRequired,
-  variant: PropTypes.string
+  variant: PropTypes.string,
+  style: PropTypes.object
 }
 
 export default Typography;

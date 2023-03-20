@@ -38,7 +38,7 @@
 }
 
 .navItem {
-  color: #333;
+  color: var(--color--gray);
   text-decoration: none;
 }
 

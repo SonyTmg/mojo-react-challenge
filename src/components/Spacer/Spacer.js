@@ -8,6 +8,9 @@ const variants = {
     marginTop: 24
   },
   large: {
+    marginTop: 32
+  },
+  xl: {
     marginTop: 42
   }
 }
