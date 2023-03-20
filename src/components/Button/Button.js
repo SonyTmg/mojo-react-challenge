@@ -22,7 +22,7 @@ const variants = {
 
 function Button(props) {
   return (
-    <button style={{ ...variants['default'], ...variants[props.variant] }
+    <button onClick={props.onClick} style={{ ...variants['default'], ...variants[props.variant] }
     }>
       <Typography variant='FuturaHeadingSmall'>
         {props.children}

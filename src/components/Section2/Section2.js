@@ -2,14 +2,21 @@ import Typography from '../Typography';
 import styles from './Section2.module.css';
 import Button from '../Button';
 import Spacer from '../Spacer';
-import { ReactComponent as PlayIcon } from './play.svg'
+import { ReactComponent as PlayIcon } from './play.svg';
+import React, { useState } from 'react';
 
 function Section2() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  console.log('Is playing:', isPlaying);
+  const togglePlay = () => {
+    console.log('On click handler called');
+    setIsPlaying(!isPlaying);
+  }
   return (
     <section className={styles.wrapper}>
       <div className={styles.container}>
         <div className={styles.video}>
-          <video src="https://assets.mojocrowe.com/adhoc_videos/MOJO_WHY.mp4" controls="controls"/>
+          <video src="https://assets.mojocrowe.com/adhoc_videos/MOJO_WHY.mp4" controls={true} controlsList="nodownload" autoPlay={isPlaying}/>
         </div>
         <div className={styles.copy}>
           <Typography variant="FuturaTitleXSmall">
@@ -25,7 +32,7 @@ function Section2() {
             <Typography>We're not a mindfulness app. We go deeper by helping you figure our who you are, what you want and how to get there.</Typography>
 
           <Spacer size='medium' />
-          <Button variant='medium'>
+          <Button variant='medium' onClick={togglePlay}>
             Watch now <PlayIcon className={styles.playIcon}/>
           </Button>
         </div>
