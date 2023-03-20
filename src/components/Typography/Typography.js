@@ -5,7 +5,13 @@ const styles = {
 
   },
 
-  FuturaTitleXSmall: {},
+  FuturaTitleXSmall: {
+    fontFamily: 'FuturaBTExtraBlack',
+    fontSize: 32,
+    fontWeight: 400,
+    lineHeight: '38.4px',
+    textTransform: 'uppercase'
+  },
 
   FuturaHeadingLarge: {
     fontFamily: 'FuturaBTExtraBlack',

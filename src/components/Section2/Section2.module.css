@@ -1,0 +1,39 @@
+.wrapper {
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  /* height: 500px; */
+  display: flex;
+  justify-content: space-between;
+  gap: 44px;
+}
+
+.video {
+  flex: 1;
+  /* max-width: 550px; */
+  /* display: flex;
+  justify-content: center; */
+
+}
+
+.video video {
+  object-fit: cover;
+  width: 600px;
+  height: 400px;
+}
+
+.copy {
+  flex: 1;
+  /* max-width: 550px; */
+  padding: 44px 0;
+}
+
+.playIcon {
+  padding-left: 7.79px;
+}
