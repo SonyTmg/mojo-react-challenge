@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: var(--color--dark-gray);
+}
+.container {
+  display: flex;
+  align-items: center;
+  height: 88px;
+  max-width: 1200px;
+  width: 100%;
+}
+.VerticalDivider {
+  border: 0.1px solid #ffffff;
+  height: 12px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navItem {
+  color: var(--color--white);
+  text-decoration: none;
+}
