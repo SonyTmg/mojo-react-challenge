@@ -41,7 +41,7 @@
 }
 
 .quote {
-  padding: 56px 0;
+  padding-top: 56px;
   max-width: var(--max-width);
   text-align: center;
 }
