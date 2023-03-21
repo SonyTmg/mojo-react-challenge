@@ -1,4 +1,7 @@
 import Typography from '../Typography';
+import Card from '../Card';
+import CardImage from '../CardImage';
+import CardContent from '../CardContent';
 import styles from './Section3.module.css';
 import Spacer from '../Spacer';
 import image1 from './img-1.png';
@@ -9,19 +12,17 @@ function Section3() {
   return (
     <section className={styles.wrapper}>
       <div className={styles.description}>
-        <Typography variant="NewYorkHeadingSmall" style={{ color: "var(--color--dark-gray)" }}>
+        <Typography variant="FuturaHeadingLarge" style={{ color: "var(--color--dark-gray)" }}>
           Mojo's mindset course introduces you to the practice of 3 distinct mindsets: Connection, Purpose & Performance.
         </Typography>
         <Spacer size='small' />
         <Typography variant="FuturaHeadingSmall" style={{ color: "var(--color--dark-gray)" }}>And these mindsets ultimately help you answer 3 simple but not so easy questions:</Typography>
       </div>
       <div className={styles.container}>
-        <card className={styles.card}>
-          <cardMedia>
-            <img src={image1} alt="person" />
-          </cardMedia>
+        <Card>
+          <CardImage src={image1} alt="person" />
           <Spacer size='medium' />
-          <cardContent>
+          <CardContent>
             <Typography style={{ color: "var(--color--light-gray)" }}>Chapter 1</Typography>
             <Typography variant="NewYorkHeadingSmall">Who Am I?</Typography>
             <Spacer size='medium' />
@@ -32,14 +33,12 @@ function Section3() {
                 <li>We let go of imposter syndrome and FOPO (Fear of other people's opinions).  </li>
               </ul>
             </Typography>
-          </cardContent>
-        </card>
-        <card className={styles.card}>
-          <cardMedia>
-            <img src={image2} alt="person" />
-          </cardMedia>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardImage src={image2} alt="person" />
           <Spacer size='medium' />
-          <cardContent>
+          <CardContent>
             <Typography style={{ color: "var(--color--light-gray)" }}>Chapter 2</Typography>
             <Typography variant="NewYorkHeadingSmall">What Do I Want?</Typography>
             <Spacer size='medium' />
@@ -50,14 +49,12 @@ function Section3() {
                 <li>We unlock our core values to find a balance between achievement and fulfilment.</li>
               </ul>
             </Typography>
-          </cardContent>
-        </card>
-        <card className={styles.card}>
-          <cardMedia>
-            <img src={image3} alt="person" />
-          </cardMedia>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardImage src={image3} alt="person" />
           <Spacer size='medium' />
-          <cardContent>
+          <CardContent>
             <Typography style={{ color: "var(--color--light-gray)" }}>Chapter 3</Typography>
             <Typography variant="NewYorkHeadingSmall">How Do I Get There?</Typography>
             <Spacer size='medium' />
@@ -68,8 +65,8 @@ function Section3() {
                 <li>We design and put our new operating system into action.</li>
               </ul>
             </Typography>
-          </cardContent>
-        </card>
+          </CardContent>
+        </Card>
       </div>
     </section>
   );

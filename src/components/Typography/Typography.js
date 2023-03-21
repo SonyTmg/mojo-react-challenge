@@ -34,7 +34,6 @@ const styles = {
     fontSize: '16px',
     lineHeight: '16x',
     letterSpacing: '-0.4px',
-    textTransform: 'uppercase',
   },
 
   FuturaParagraphMedium: {

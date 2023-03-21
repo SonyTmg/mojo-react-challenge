@@ -10,13 +10,6 @@
   width: 100%;
   max-width: var(--max-width);
   display: flex;
-  gap: 48px;
-}
-
-.card {
-  padding-top: 48px;
-  padding-bottom: 56px;
- width: 352px;
 }
 
 .description {

@@ -24,7 +24,7 @@ function Button(props) {
   return (
     <button onClick={props.onClick} style={{ ...variants['default'], ...variants[props.variant] }
     }>
-      <Typography variant='FuturaHeadingSmall'>
+      <Typography variant='FuturaHeadingSmall' style={{ textTransform: 'uppercase' }}>
         {props.children}
       </Typography>
     </button >
