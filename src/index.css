@@ -30,6 +30,7 @@
 
 body {
   margin: 0;
+  -webkit-font-smoothing: antialiased;
   /* Variables */
   /* Background colors */
   --bg-yellow-gradient: radial-gradient(98.66% 100% at 50% 0%, #FFCE85 0%, #FFAE33 100%);
