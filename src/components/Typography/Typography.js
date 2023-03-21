@@ -45,7 +45,13 @@ const styles = {
     lineHeight: '20px',
   },
 
-  FuturaParagraphSmall: {},
+  FuturaParagraphSmall: {
+    fontFamily: 'FuturaBTBook',
+    fontSize: 12,
+    fontWeight: 400,
+    fontStyle: 'normal',
+    lineHeight: '16px',
+  },
 
   NewYorkHeadingSmall: {
     fontFamily: 'NewYork',
@@ -61,10 +67,16 @@ const styles = {
     lineHeight: '28px',
   },
 
-  Timberwolf44: {},
+  Timberwolf44: {
+    fontFamily: 'TimberWolf',
+    fontSize: '44px',
+    fontWeight: 400,
+    lineHeight: '48px',
+  },
 
   Timberwolf28: {
     fontFamily: 'TimberWolf',
+    fontStyle: 'normal',
     fontSize: '28px',
     fontWeight: 400,
     lineHeight: '36px',
