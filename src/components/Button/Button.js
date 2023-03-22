@@ -32,7 +32,10 @@ function Button(props) {
 }
 
 Button.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.node
+  ]).isRequired,
   variant: PropTypes.string
 }
 
