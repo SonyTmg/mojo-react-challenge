@@ -2,7 +2,11 @@ import PropTypes from 'prop-types'
 
 const styles = {
   FuturaTitleSmall: {
-
+    fontFamily: 'FuturaBTExtraBlack',
+    fontSize: 44,
+    fontWeight: 400,
+    lineHeight: '52.8px',
+    textTransform: 'uppercase'
   },
 
   FuturaTitleXSmall: {
@@ -14,11 +18,10 @@ const styles = {
   },
 
   FuturaHeadingLarge: {
-    fontFamily: 'FuturaBTExtraBlack',
-    fontSize: 44,
+    fontFamily: 'FuturaBTMediumCondensed',
+    fontSize: '24px',
     fontWeight: 400,
-    lineHeight: '52.8px',
-    textTransform: 'uppercase'
+    lineHeight: '28.8px'
   },
 
   FuturaHeadingMedium: {
@@ -93,7 +96,10 @@ function Typography(props) {
 }
 
 Typography.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.node
+  ]).isRequired,
   variant: PropTypes.string,
   style: PropTypes.object
 }
