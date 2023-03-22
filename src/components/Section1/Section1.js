@@ -18,7 +18,7 @@ function Section1() {
           </div>
         </div>
         <div className={styles.copy}>
-          <Typography variant="FuturaHeadingLarge">
+          <Typography variant="FuturaTitleSmall">
             A simple approach to find happiness and confidence
           </Typography>
           <Spacer size='small'/>
