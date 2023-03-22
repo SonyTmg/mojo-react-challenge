@@ -2,13 +2,12 @@
   background: var(--bg-yellow-gradient);
   display: flex;
   justify-content: center;
-  padding-top: 160px;
+  padding-top: 120px;
 }
 
 .container {
   width: 100%;
   max-width: 1200px;
-  height: 500px;
   display: flex;
   justify-content: space-between;
   gap: 44px;
@@ -16,20 +15,29 @@
 
 .images {
   flex: 1;
-  max-width: 420px;
+  /* max-width: 420px; */
   display: flex;
   justify-content: center;
   padding: 40px;
 }
 
+.images img {
+  width: 100%;
+}
+
 .iphoneLeft {
   z-index: 10;
   margin-top: 29px;
-  margin-right: -85.5px;
+  margin-right: -83.5px;
+  max-width: 224px;
+}
+
+.iphoneRight {
+  max-width: 316px;
 }
 
 .copy {
   flex: 2;
   max-width: 736px;
-  padding: 79.5px 0;
+  padding: 115px 0 0 0;
 }

@@ -10,7 +10,7 @@ function Header() {
     <header className={styles.wrapper}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <img src={logo} alt="logo named MOJO" className={styles.logo} />
+          <img src={logo} alt="logo named MOJO" className={styles.logo}/>
         </div>
         <div className={styles.right}>
           <nav className={styles.nav} role='navigation'>
