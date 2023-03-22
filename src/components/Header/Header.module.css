@@ -38,7 +38,7 @@
 }
 
 .navItem {
-  color: var(--color--gray);
+  /* color: var(--color--gray); */
   text-decoration: none;
 }
 
