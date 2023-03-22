@@ -23,7 +23,7 @@ function Section3() {
           <CardImage src={image1} alt="person" />
           <Spacer size='medium' />
           <CardContent>
-            <Typography style={{ color: "var(--color--light-gray)" }}>Chapter 1</Typography>
+            <Typography variant="FuturaParagraphSmall" style={{ color: "var(--color--light-gray)" }}>Chapter 1</Typography>
             <Typography variant="NewYorkHeadingSmall">Who Am I?</Typography>
             <Spacer size='medium' />
             <Typography variant="FuturaParagraphMedium" style={{ color: "var(--color--light-gray)" }}>
@@ -39,7 +39,7 @@ function Section3() {
           <CardImage src={image2} alt="person" />
           <Spacer size='medium' />
           <CardContent>
-            <Typography style={{ color: "var(--color--light-gray)" }}>Chapter 2</Typography>
+            <Typography variant="FuturaParagraphSmall" style={{ color: "var(--color--light-gray)" }}>Chapter 2</Typography>
             <Typography variant="NewYorkHeadingSmall">What Do I Want?</Typography>
             <Spacer size='medium' />
             <Typography variant="FuturaParagraphMedium" style={{ color: "var(--color--light-gray)" }}>
@@ -55,7 +55,7 @@ function Section3() {
           <CardImage src={image3} alt="person" />
           <Spacer size='medium' />
           <CardContent>
-            <Typography style={{ color: "var(--color--light-gray)" }}>Chapter 3</Typography>
+            <Typography variant="FuturaParagraphSmall" style={{ color: "var(--color--light-gray)" }}>Chapter 3</Typography>
             <Typography variant="NewYorkHeadingSmall">How Do I Get There?</Typography>
             <Spacer size='medium' />
             <Typography variant="FuturaParagraphMedium" style={{ color: "var(--color--light-gray)" }}>
