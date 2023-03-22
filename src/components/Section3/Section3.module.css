@@ -13,6 +13,6 @@
 }
 
 .description {
-  max-width: var(--max-width);
+  max-width: 640px;
   text-align: center;
 }

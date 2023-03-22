@@ -60,7 +60,7 @@ function Section3() {
             <Spacer size='medium' />
             <Typography variant="FuturaParagraphMedium" style={{ color: "var(--color--light-gray)" }}>
               <ul>
-                <li>We create our A Game</li>
+                <li>We create our A Game.</li>
                 <li>We develop a performance mindset to accept uncontrollables and focus back on controllables.</li>
                 <li>We design and put our new operating system into action.</li>
               </ul>
