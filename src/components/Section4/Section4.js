@@ -1,6 +1,5 @@
 import Typography from '../Typography';
 import styles from './Section4.module.css';
-import image from './image3.png';
 import Button from '../Button';
 import Spacer from '../Spacer';
 
@@ -15,7 +14,7 @@ function Section4() {
           <Typography>Inspirational videos from athletes that have done this work before.</Typography>
           <Spacer size="xl" />
           <div className={styles.image}>
-            <img src={image} alt="The Mojo app with Ben Crowe, Ash Barty, Dylan Alcott, Steph Gilmore, Trent Cotchin, Jennah Louise Salkeld sharing their journey." />
+            <img src='/images/iphone-app-story-screen.png' alt="The Mojo app with Ben Crowe, Ash Barty, Dylan Alcott, Steph Gilmore, Trent Cotchin, Jennah Louise Salkeld sharing their journey." />
           </div>
         </div>
         <div className={styles.copyContainer}>

@@ -4,9 +4,6 @@ import CardImage from '../CardImage';
 import CardContent from '../CardContent';
 import styles from './Section3.module.css';
 import Spacer from '../Spacer';
-import image1 from './img-1.png';
-import image2 from './img-2.png';
-import image3 from './img-3.png';
 
 function Section3() {
   return (
@@ -20,7 +17,7 @@ function Section3() {
       </div>
       <div className={styles.container}>
         <Card>
-          <CardImage src={image1} alt="A person holding decorative lights in his hand." />
+          <CardImage src='/images/img-1.png' alt="A person holding decorative lights in his hand." />
           <Spacer size='medium' />
           <CardContent>
             <Typography variant="FuturaParagraphSmall" style={{ color: "var(--color--light-gray)" }}>Chapter 1</Typography>
@@ -36,7 +33,7 @@ function Section3() {
           </CardContent>
         </Card>
         <Card>
-          <CardImage src={image2} alt="A person meditating under a open sky." />
+          <CardImage src='/images/img-2.png' alt="A person meditating under a open sky." />
           <Spacer size='medium' />
           <CardContent>
             <Typography variant="FuturaParagraphSmall" style={{ color: "var(--color--light-gray)" }}>Chapter 2</Typography>
@@ -52,7 +49,7 @@ function Section3() {
           </CardContent>
         </Card>
         <Card>
-          <CardImage src={image3} alt="A person walking on a hiking trail." />
+          <CardImage src='/images/img-3.png' alt="A person walking on a hiking trail." />
           <Spacer size='medium' />
           <CardContent>
             <Typography variant="FuturaParagraphSmall" style={{ color: "var(--color--light-gray)" }}>Chapter 3</Typography>
