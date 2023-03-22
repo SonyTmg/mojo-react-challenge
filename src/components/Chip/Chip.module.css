@@ -1,0 +1,15 @@
+.wrapper {
+  color: var(--color--dark-gray);
+  cursor: pointer;
+}
+
+a.wrapper {
+  text-decoration: none;
+}
+
+.active {
+  background-color: var(--color--dark-gray);
+  color: white;
+  padding: 6px 16px;
+  border-radius: 24px;
+}
