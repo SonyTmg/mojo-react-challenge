@@ -41,3 +41,18 @@
   max-width: 736px;
   padding: 115px 0 0 0;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    padding-top: 0px;
+  }
+
+  .copy {
+    padding: 20px;
+  }
+
+  .images {
+    display: none;
+  }
+}

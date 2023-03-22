@@ -3,7 +3,7 @@ import styles from './CardImage.module.css';
 
 function CardImage(props) {
   return (
-    <img src={props.src} alt={props.alt} width={352} height={234} className={styles.wrapper} />
+    <img src={props.src} alt={props.alt} className={styles.wrapper} />
   )
 }
 

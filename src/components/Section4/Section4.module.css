@@ -1,6 +1,6 @@
 .wrapper {
   background: var(--bg-yellow-gradient);
-   display: flex;
+  display: flex;
   justify-content: center;
   /* padding-top: 160px; */
   /* height: 877px; */
@@ -30,19 +30,44 @@
   /* padding: 60px; */
 }
 
-.image > img {
+.image>img {
   max-width: 400px;
 }
 
 
 .copyContainer {
   flex: 1.1;
-  padding: 150px  0;
+  padding: 150px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .copy {
   flex: 1;
   padding-right: 80px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    padding-top: 0px;
+    gap: 24px;
+  }
+
+  .imageContainer {
+    padding: 72px 12px;
+  }
+
+  .imageContainer img {
+    max-width: 90%;
+  }
+
+  .copyContainer {
+    padding: 0 24px 62px 24px;
+  }
+
+  .copy {
+    padding: 0;
+  }
 }

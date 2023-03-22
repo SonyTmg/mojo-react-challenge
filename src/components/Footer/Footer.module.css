@@ -25,3 +25,10 @@
   color: var(--color--white);
   text-decoration: none;
 }
+
+@media screen and (max-width: 480px) {
+  .nav {
+    gap: 7px;
+    padding: 0 16px;
+  }
+}

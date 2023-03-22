@@ -4,6 +4,7 @@
   position: absolute;
   width: 100%;
   top: 52px;
+  white-space: nowrap;
 }
 
 .container {
@@ -43,4 +44,17 @@
 
 .navItem:first-child {
   margin-left: 0;
+}
+
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    top: 24px;
+  }
+
+  .container {
+    overflow: scroll;
+    padding: 0 10px;
+    gap: 40px;
+  }
 }
