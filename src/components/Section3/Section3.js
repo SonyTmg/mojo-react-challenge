@@ -20,7 +20,7 @@ function Section3() {
       </div>
       <div className={styles.container}>
         <Card>
-          <CardImage src={image1} alt="person" />
+          <CardImage src={image1} alt="A person holding decorative lights in his hand." />
           <Spacer size='medium' />
           <CardContent>
             <Typography variant="FuturaParagraphSmall" style={{ color: "var(--color--light-gray)" }}>Chapter 1</Typography>
@@ -36,7 +36,7 @@ function Section3() {
           </CardContent>
         </Card>
         <Card>
-          <CardImage src={image2} alt="person" />
+          <CardImage src={image2} alt="A person meditating under a open sky." />
           <Spacer size='medium' />
           <CardContent>
             <Typography variant="FuturaParagraphSmall" style={{ color: "var(--color--light-gray)" }}>Chapter 2</Typography>
@@ -52,7 +52,7 @@ function Section3() {
           </CardContent>
         </Card>
         <Card>
-          <CardImage src={image3} alt="person" />
+          <CardImage src={image3} alt="A person walking on a hiking trail." />
           <Spacer size='medium' />
           <CardContent>
             <Typography variant="FuturaParagraphSmall" style={{ color: "var(--color--light-gray)" }}>Chapter 3</Typography>

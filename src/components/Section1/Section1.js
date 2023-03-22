@@ -11,10 +11,10 @@ function Section1() {
       <div className={styles.container}>
         <div className={styles.images}>
           <div className={styles.iphoneLeft}>
-            <img src={iphone1} alt="Iphone" />
+            <img src={iphone1} alt="The mojo app showing person surfing and list of mindset exercises." />
           </div>
           <div className={styles.iphoneRight}>
-            <img src={iphone2} alt="Iphone" />
+            <img src={iphone2} alt="The mojo app course at chapter 1, who am i?  and course progress at 100%" />
           </div>
         </div>
         <div className={styles.copy}>
