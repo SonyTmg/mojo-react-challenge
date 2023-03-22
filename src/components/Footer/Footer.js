@@ -8,11 +8,11 @@ function Footer() {
         <div className={styles.container}>
           <Typography variant='FuturaParagraphSmall'>
             <nav className={styles.nav} role='navigation'>
-              <a href="#" className={styles.navItem}>Terms & Conditions</a>
+              <a href="/" className={styles.navItem}>Terms & Conditions</a>
               <div className={styles.VerticalDivider}></div>
-              <a href="#" className={styles.navItem}>Privacy Policy</a>
+              <a href="/" className={styles.navItem}>Privacy Policy</a>
               <div className={styles.VerticalDivider}></div>
-              <a href="#" className={styles.navItem}> ©  Copyright of Mojo Crowe 2022</a>
+              <a href="/" className={styles.navItem}> ©  Copyright of Mojo Crowe 2022</a>
             </nav>
           </Typography>
         </div>
