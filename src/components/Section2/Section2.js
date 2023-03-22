@@ -29,7 +29,7 @@ function Section2() {
               <Spacer size='small' />
               <strong>Because it's complex and it takes work.</strong> The Mojo Course and App gives people a unique simple and practical way to do that work.
               <Spacer size='small' />
-              We're not a mindfulness app. We go deeper by helping you figure our who you are, what you want and how to get there.
+              We're not a mindfulness app. We go deeper by helping you figure out who you are, what you want and how to get there.
             </p>
           </Typography>
           <Spacer size='medium' />
