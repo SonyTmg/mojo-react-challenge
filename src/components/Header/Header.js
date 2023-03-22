@@ -32,11 +32,6 @@ function Header() {
             <Chip href="/my-account" onClick={() => setCurrentPath("/my-account")} active={currentPath === '/my-account'}>
               My account
             </Chip>
-            {/* <a href="/courses" className={styles.navItem}>Course & App</a>
-            <a href="/for-work" className={styles.navItem}>For Work</a>
-            <a href="/merch" className={styles.navItem}>Merch</a>
-            <a href="/contact-us" className={styles.navItem}>Contact us</a>
-            <a href="/account" className={styles.navItem}>My account</a> */}
           </nav>
         </div>
       </div>
